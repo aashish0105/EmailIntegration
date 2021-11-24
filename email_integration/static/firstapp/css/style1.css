@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    overflow-x: hidden;
+}
+.myclass{
+   display:flex;
+    flex-direction: column;
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.myclass::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar
+{
+ background-color:powderblue;
+ list-style-type:none;
+
+}
+li
+{
+ float: left;
+ padding:0px;
+}
+li a
+{
+    display:block;
+    color:black;
+    padding:5px;
+    margin-left:0px;
+}
+li a:hover
+{
+  background-color:yellow;
+}
+header h1
+{
+  text-align:center;
+}
+footer h5
+{
+ background-color:gray;
+ text-align:center;
+ padding:15px;
+}
+.footer{
+    width:100vw;
+    margin-top:auto;
+}
