@@ -13,6 +13,11 @@
               {% csrf_token %}
               {{form|crispy}}
               <input type="submit" value="Register" class="btn btn-success">
+              <br>
+              {% for msg in messages %}
+                <p style="color:red">{{msg}}</p>
+              {% endfor %}
+
           </form>
           <br>
         </div>

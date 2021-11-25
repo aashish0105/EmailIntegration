@@ -1,0 +1,16 @@
+{% extends 'firstapp/base.html' %}
+
+{% block title %}
+    <title>Success Page</title>
+{% endblock %}
+
+{% block content %}
+   <div class="container">
+    <div class="jumbotron" style="width:60%">
+    <h1 style="text-align:center;">Thank you for your email confirmation. Now you can login your account.</h1>
+    <br><br>
+
+    <a class="btn btn-success" href="{% url 'login' %}">LogIn</a>
+    </div>
+   </div>
+{% endblock %}
